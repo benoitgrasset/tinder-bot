@@ -16,7 +16,13 @@
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
-module.exports = (on: any, config: any) => {
+
+const { FacebookSocialLogin } = require('cypress-social-logins').plugins
+
+module.exports = (on: any, config: number) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  on('task', {
+    FacebookSocialLogin: FacebookSocialLogin
+  })
 }
