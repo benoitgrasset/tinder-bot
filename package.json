@@ -1,0 +1,25 @@
+{
+  "name": "bot-tinder",
+  "version": "1.0.0",
+  "description": "Bot for Tinder",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "Tinder"
+  ],
+  "author": "Benoit GRASSET",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "cypress-social-logins": "^1.11.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@types/cypress": "^1.1.3",
+    "@types/mocha": "^8.2.2",
+    "dotenv": "^8.2.0"
+  }
+}
