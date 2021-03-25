@@ -2,6 +2,6 @@
 Tinder bot using Cypress
 
 
-# Usage
+## Usage
 
 'npm run test'
